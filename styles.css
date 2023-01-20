@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  background-color: #007afd;
+}
+
+#level-title {
+  font-family: 'Verdana', cursive;
+  font-size: 5rem;
+  margin:  7%;
+  color: #660861;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 35px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 8px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(251, 85, 85);
+}
+
+.green {
+  background-color: rgb(53, 163, 53);
+}
+
+.blue {
+  background-color: rgb(76, 76, 248);
+}
+
+.yellow {
+  background-color: rgb(251, 251, 111);
+}
+
+.pressed {
+  box-shadow: 0 0 20px rgb(246, 93, 5);
+  background-color: rgb(158, 175, 44);
+}
